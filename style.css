@@ -1,0 +1,40 @@
+html {
+    padding: 0;
+    margin: 0;
+    border: solid hotpink 4px;
+    background-image: image("pinkwallpaper.jpg");
+    background-size:cover;
+}
+canvas { 
+    margin: 0 auto; 
+    background: lightpink; 
+    display: block; 
+    border: 3px solid hotpink;
+}
+body {
+    background: linear-gradient(gold,lightpink);
+    align-content: center;
+    text-align: center;
+    font: 100% Georgia serif;
+}
+li {
+    list-style: none;
+}
+h1 {
+    font-size: 60pt;
+    color: hotpink;
+    text-shadow: 3px 2px lightpink;
+}
+h3 {
+    font-size: 20pt;
+    color: hotpink;
+    text-shadow: 3px 2px lightpink;
+}
+img {
+    width: 60%;
+    border: solid hotpink 7px;
+}
+#head {
+    display: flex;
+    list-style: none;
+}
